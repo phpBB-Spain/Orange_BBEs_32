@@ -485,7 +485,6 @@ Colours and backgrounds for buttons.css
 	height: auto;
 	line-height: 18px;
 	text-transform: uppercase;
-	font-weight: 150;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F9E289', EndColorStr='#FFFFFF')";
 	box-shadow: 0 0 0 1px #F9E289 inset;
 	-webkit-box-shadow: 0 0 0 1px #F9E289 inset;
@@ -503,8 +502,8 @@ Colours and backgrounds for buttons.css
 	border-color: #FFA64D;
 	background-image: -moz-linear-gradient(top, #FFFFFF, #F9E289);
 	background-image: -webkit-linear-gradient(top, #FFFFFF, #F9E289);
-	background-image: -o-linear-gradient(top, #FFFFF, #F9E289);
-	background-image: linear-gradient(to bottom, #FFFFF, #F9E289);
+	background-image: -o-linear-gradient(top, #FFFFFF, #F9E289);
+	background-image: linear-gradient(to bottom, #FFFFFF, #F9E289);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#F9E289')";
 	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #F9E289, -1px -1px 0 rgba(188, 42, 77, 0.2);
 }
@@ -554,7 +553,6 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	height: auto;
 	line-height: 17px;
 	text-transform: uppercase;
-	font-weight: 150;
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#F9E289', EndColorStr='#FFFFFF')";
 	box-shadow: 0 0 0 1px #F9E289 inset;
 	-webkit-box-shadow: 0 0 0 1px #F9E289 inset;
@@ -596,8 +594,8 @@ a.button1:hover, input.button1:hover, a.button2:hover, input.button2:hover, inpu
 	border-color: #FFA64D;
 	background-image: -moz-linear-gradient(top, #FFFFFF, #F9E289);
 	background-image: -webkit-linear-gradient(top, #FFFFFF, #F9E289);
-	background-image: -o-linear-gradient(top, #FFFFF, #F9E289);
-	background-image: linear-gradient(to bottom, #FFFFF, #F9E289);
+	background-image: -o-linear-gradient(top, #FFFFFF, #F9E289);
+	background-image: linear-gradient(to bottom, #FFFFFF, #F9E289);
 	-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorStr='#FFFFFF', EndColorStr='#F9E289')";
 	text-shadow: 1px 1px 0 #FFFFFF, -1px -1px 0 #F9E289, -1px -1px 0 rgba(188, 42, 77, 0.2);
 }

@@ -81,7 +81,7 @@ a:hover { color: #D31141; }
 /* Round cornered boxes and backgrounds
 ---------------------------------------- */
 .wrap {
-	background-color: #ffcc66;
+	background-color: #FFFFFF;
 	border-radius: 7px 7px 7px 7px;
     background-repeat: repeat;		
 }
