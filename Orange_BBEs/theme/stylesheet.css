@@ -29,10 +29,20 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     -webkit-font-smoothing: antialiased;/* Fix for webkit rendering, well at least for the time being */
 }
 
+/* Logo Orange BBEs
+---------------------------------------- */
+
+.logo {
+    float: left;
+    width: auto;
+    padding: 5px 5px 5px 5px;
+}
+
 .site_logo {
 	background-image: url("./images/BBEs_logo.png");
-	padding-top: 33px;
-	padding-left: 90px;
+    display: inline-block;
+    width: 290px;
+    height: 86px;
 }
 
 /* Round cornered boxes and backgrounds
@@ -41,24 +51,20 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	background-color: #FAD983;
 	background-image: url("./images/bg_header.gif");
 	color: #000000;
-	border-radius: 7px 7px 7px 7px;
 }
 
 .navbar {
 	background-color: #F0D9A5;
-	border-radius: 7px 7px 7px 7px;
 }
 
 .forabg {
 	background-color: #FFD741;
 	background-image: url("./images/bg_list.gif");
-	border-radius: 7px 7px 7px 7px;
 }
 
 .forumbg {
 	background-color: #FAD983;
 	background-image: url("./images/bg_list.gif");
-	border-radius: 7px 7px 7px 7px;
 }
 
 .panel {
@@ -78,6 +84,14 @@ h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 	background-color: #F9E289;
 }
 
+.bg2 {
+	background-color: #F9E289;
+}
+
+.bg3 {
+	background-color: #F0D9A5;
+}
+
 table.table1 tbody tr:hover, table.table1 tbody tr.hover {
 	background-color: #F0D9A5;
 	color: #000;
@@ -87,15 +101,9 @@ table.zebra-list tr:nth-child(odd) td, ul.zebra-list li:nth-child(odd) {
 	background-color: #F9E289;
 }
 
-.bg2 {
-	background-color: #F9E289;
-}
-
 table.zebra-list tr:nth-child(even) td, ul.zebra-list li:nth-child(even) {
 	background-color: #F9E289;
 }
-
-.bg3	{ background-color: #F0D9A5; }
 
 .ucprowbg {
 	background-color: #DCDEE2;
@@ -116,7 +124,7 @@ Colours and backgrounds for content.css
 
 ul.forums {
 	background-color: #F9EBB7;
-	background-image: none; /* url("./images/gradient.gif"); */
+	background-image: none;
 }
 
 ul.topiclist li {
@@ -625,14 +633,42 @@ input.disabled {
 	color: #666666;
 }
 
-/* Icon images
---------------------------------------------- */
-
-.site_logo {
-    display: inline-block;
+/* Jumpbox */
+.jumpbox .dropdown li {
+	border-top-color: #CCCCCC;
 }
 
-.icon-button:before, .dropdown-select:after	{ background-image: url("./images/icons/icons_button.png"); }
+.jumpbox-cat-link {
+	background-color: #E18935;
+	border-top-color: #E18935;
+	color: #FFFFFF;
+}
+
+.jumpbox-cat-link:hover {
+	background-color: #F0D9A5;
+	border-top-color: #F0D9A5;
+	color: #000000;
+}
+
+.jumpbox-forum-link {
+	background-color: #F0D9A5;
+}
+
+.jumpbox-forum-link:hover {
+	background-color: #E1EBF2;
+}
+
+.jumpbox .dropdown .pointer-inner {
+	border-color: #E1EBF2 transparent;
+}
+
+.jumpbox-sub-link {
+	background-color: #F6F4D0;
+}
+
+.jumpbox-sub-link:hover {
+	background-color: #F0D9A5;
+}
 
 /* Forum icons & Topic icons */
 
@@ -691,22 +727,4 @@ input.disabled {
 li.row strong {
 	font-weight: bold;
 	color: inherit;
-}
-
-/* Imageset */
-.imageset:before {
-	color: #888;
-	display: block;
-	font-family: FontAwesome;
-	font-style: normal;
-	font-weight: normal;
-	font-size: 14px;
-	line-height: inherit;
-	text-decoration: none;
-	text-shadow: 0 0 5px #000;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-	position: absolute;
-	left: 0;
-	top: 0;
 }
