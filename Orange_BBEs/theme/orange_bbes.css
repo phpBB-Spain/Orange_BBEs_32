@@ -146,7 +146,7 @@ li.row:hover dd {
 }
 
 li.header dt, li.header dd {
-	color: #FFFFFF;
+	color: #F6F4D0;
 }
 
 /* Post body styles
@@ -208,7 +208,7 @@ blockquote blockquote {
 
 blockquote blockquote blockquote {
 	/* Nested quotes */
-	background-color: #EBEADD;
+	background-color: #F0D9A5;
 }
 
 /* Code block */
@@ -239,7 +239,7 @@ blockquote blockquote blockquote {
 ----------------------------------------*/
 .attachbox {
 	background-color: #FAD983;
-	border-color:  #FFFFF;
+	border-color:  #D44A25;
 }
 
 .pm-message .attachbox {
