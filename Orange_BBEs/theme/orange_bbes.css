@@ -213,12 +213,11 @@ blockquote blockquote blockquote {
 
 /* Code block */
 .codebox {
-	background-color: #EAB71B;
+	background-color: #EFE2C0;
 	background-image: url("./images/code.png");
 	background-repeat: no-repeat;
-	background-position: 3px 3px 3px;
 	padding-left: 20px;
-	border-color: #FFF;
+	border-color: #EAB71B;
 }
 
 .codebox p {
