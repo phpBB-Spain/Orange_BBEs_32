@@ -194,7 +194,6 @@ dl.faq dt {
 /* Quote block */
 blockquote {
 	background-color: #F0D9A5;
-	background-image: url("./images/quote.gif");
 	border-color:#FFF;
 }
 
@@ -241,7 +240,7 @@ blockquote blockquote blockquote {
 ----------------------------------------*/
 .attachbox {
 	background-color: #FAD983;
-	border-color:  #FFF;
+	border-color:  #FFFFF;
 }
 
 .pm-message .attachbox {
@@ -249,7 +248,7 @@ blockquote blockquote blockquote {
 }
 
 .attachbox dd {
-	border-top-color: #FFF;
+	border-top-color: #FFFFF;
 }
 
 .attachbox p {
@@ -347,7 +346,7 @@ p.post-notice {
 
 /* Link styles for the sub-section links */
 #navigation a {
-	color: #333;
+	color: #33333;
 	background: #F9EBB6;
 	background: -moz-linear-gradient(left, #F9EBB6 50%, #F9F9F9 100%);
 	background: -webkit-gradient(left top, right top, color-stop(50%, #F9EBB6), color-stop(100%, #F9F9F9));
@@ -427,7 +426,7 @@ p.post-notice {
 }
 
 .dropdown .pointer-inner {
-	border-color: #FFF transparent;
+	border-color: #FFFFF transparent;
 }
 
 .dropdown-extended .pointer-inner {
@@ -480,7 +479,7 @@ Colours and backgrounds for buttons.css
 	background-image: -webkit-linear-gradient(top, #F9E289, #FFFFFF);
 	background-image: -o-linear-gradient(top, #F9E289, #FFFFFF);
 	background-image: linear-gradient(to bottom, #F9E289, #FFFFFF);
-    font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
+    	font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
 	font-weight: bold;
 	height: auto;
 	line-height: 18px;
@@ -548,7 +547,7 @@ a.button1, input.button1, input.button3, a.button2, input.button2 {
 	background-image: -webkit-linear-gradient(top, #F9E289, #FFFFFF);
 	background-image: -o-linear-gradient(top, #F9E289, #FFFFFF);
 	background-image: linear-gradient(to bottom, #F9E289, #FFFFFF);
-    font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
+    	font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
 	font-weight: bold;
 	height: auto;
 	line-height: 17px;
