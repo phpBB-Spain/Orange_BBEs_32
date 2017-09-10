@@ -276,7 +276,7 @@ blockquote blockquote blockquote {
 }
 
 .attach-image img {
-	border-color: #99999;
+	border-color: #999999;
 }
 
 /* Inline image thumbnails */
@@ -362,7 +362,7 @@ p.post-notice {
 
 /* Link styles for the sub-section links */
 #navigation a {
-	color: #33333;
+	color: #333333;
 	background: #F9EBB6;
 	background: -moz-linear-gradient(left, #F9EBB6 50%, #F9F9F9 100%);
 	background: -webkit-gradient(left top, right top, color-stop(50%, #F9EBB6), color-stop(100%, #F9F9F9));
@@ -442,7 +442,7 @@ p.post-notice {
 }
 
 .dropdown .pointer-inner {
-	border-color: #FFFFF transparent;
+	border-color: #FFFFFF transparent;
 }
 
 .dropdown-extended .pointer-inner {
@@ -590,6 +590,13 @@ a.button2, input.button2, input.button3 {
 	border-color: #E18935;
 }
 
+/* Top Button Orange BBEs */
+.back2top .top {
+    float: right;
+    margin-right: -5px;
+    margin-top: 0;
+}
+
 /* <a> button in the style of the form buttons */
 a.button1, a.button2 {
 	color: #000000;
@@ -670,6 +677,21 @@ input.disabled {
 	background-color: #F0D9A5;
 }
 
+/* Online/Offline status Orange BBEs */
+.online {
+	background-image: url(./images/icons/icon_user_online.gif);
+	background-size: 5px;
+	background-position: 100% 0%;
+    background-repeat: repeat-y;
+}
+
+.offline {
+	background-image: url(./images/icons/icon_user_offline.gif);
+	background-size: 5px;
+	background-position: 100% 0%;
+    background-repeat: repeat-y;
+}
+
 /* Forum icons & Topic icons */
 
 .global_read					{ background-image: url("./images/icons/announce_read.png"); }
@@ -727,4 +749,17 @@ input.disabled {
 li.row strong {
 	font-weight: bold;
 	color: inherit;
+}
+
+@media (max-width: 700px) {
+	.responsive-hide { display: none !important; }
+	.responsive-show { display: block !important; }
+	.responsive-show-inline { display: inline !important; }
+	.responsive-show-inline-block { display: inline-block !important; }
+
+	.postprofile .avatar img {
+    width: auto !important;
+    height: auto !important;
+    max-height: 46px;
+	}
 }
