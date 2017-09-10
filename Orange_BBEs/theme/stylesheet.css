@@ -774,13 +774,3 @@ li.row strong {
     max-height: 46px;
 	}
 }
-/*
-@media only screen and (max-width: 500px), only screen and (max-device-width: 500px) {
-	.site_logo {
-	background-image: url("./images/BBEs_logo_small.png");
-	display: inline-block;
-	padding-left: 200px;
-	padding-top: 80px;
-	}
-}
-*/
