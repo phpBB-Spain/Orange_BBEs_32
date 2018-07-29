@@ -21,7 +21,7 @@ body {
 }
  
 h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
-    color: #7F7F7F;
+    color: #000000;
     font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
     line-height: normal;
 	font-weight: 150;
@@ -165,6 +165,14 @@ li.row:hover dd {
 li.header dt, li.header dd {
 	color: #F6F4D0;
 }
+
+ul.topiclist li.row dd {
+	padding: 4px 0 999px 0;
+	margin-bottom: -995px;
+}
+
+ /* Forum list column styles */
+.row .list-inner { padding: 4px 0; }
 
 /* Post body styles
 ----------------------------------------*/
@@ -461,6 +469,13 @@ p.post-notice {
 /* Pagination
 ---------------------------------------- */
 
+ /* Pagination in viewforum for multipage topics */
+ .row .pagination {
+ 	display: block;
+	margin-top: 3px;
+	margin-bottom: 3px;
+ }
+ 
 .pagination li a {
 	color: #5C758C;
 	background-color: #F0D9A5;
@@ -496,7 +511,7 @@ Colours and backgrounds for buttons.css
 	background-image: -o-linear-gradient(top, #F9E289, #FFFFFF);
 	background-image: linear-gradient(to bottom, #F9E289, #FFFFFF);
     font-family: 'BebasNeueRegular','Arial','Helvetica',sans-serif;
-	font-weight: bold;
+	font-weight: 600;
 	height: auto;
 	line-height: 18px;
 	text-transform: uppercase;
