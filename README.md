@@ -35,6 +35,6 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 ## Autor
 ThE KuKa (Raúl Arroyo Monzo)
 
-## © 2003 / 2017 [phpBB España](http://www.phpbb-es.com)
+## © 2003 / 2018 [phpBB España](http://www.phpbb-es.com)
 
 ![phpBB Spain](http://www.phpbb-es.com/images/logo_es.png) 
