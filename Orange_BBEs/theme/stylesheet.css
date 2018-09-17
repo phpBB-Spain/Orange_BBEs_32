@@ -707,6 +707,20 @@ input.disabled {
     background-repeat: repeat-y;
 }
 
+ /* Miscellaneous styles
+ ---------------------------------------- */
+.copyright {
+	font-size: 10px;
+ 	text-align: center;
+	padding: 10px;
+}
+
+.footer-row {
+	font-size: 10px;
+	line-height: 1.8;
+	margin: 0;
+}
+
 /* Forum icons & Topic icons */
 
 .global_read					{ background-image: url("./images/icons/announce_read.png"); }
