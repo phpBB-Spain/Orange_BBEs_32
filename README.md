@@ -25,9 +25,9 @@ Requiere:
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
 
 ## Algunas capturas
-![phpBB Spain](http://www.phpbb-es.com/images/Orange_BBEs_screen.png) 
+![phpBB Spain](https://www.phpbb-es.com/images/Orange_BBEs_screen.png) 
 
-## [Demo Online - Orange BBEs](http://area51.phpbb-es.com/foro/index.php?style=16)
+## [Demo Online - Orange BBEs](https://www.phpbb-es.com/styles/demo/#orange_bbes)
 
 ## License
 [GNU General Public License v2](http://opensource.org/licenses/GPL-2.0)
@@ -35,6 +35,6 @@ Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "
 ## Autor
 ThE KuKa (Raúl Arroyo Monzo)
 
-## © 2003 / 2018 [phpBB España](http://www.phpbb-es.com)
+## © 2003 / 2018 [phpBB España](https://www.phpbb-es.com)
 
-![phpBB Spain](http://www.phpbb-es.com/images/logo_es.png) 
+![phpBB Spain](https://www.phpbb-es.com/images/logo_es.png) 
