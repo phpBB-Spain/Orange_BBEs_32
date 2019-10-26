@@ -24,9 +24,6 @@ Requiere:
 ## Corrección de errores
 Para cualquier cambio a realizar, simplemente editar para realizar el cambio y "Pull Request".
 
-## Algunas capturas
-![phpBB Spain](https://www.phpbb-es.com/images/Orange_BBEs_screen.png) 
-
 ## [Demo Online - Orange BBEs](https://www.phpbb-es.com/styles/demo/#orange_bbes)
 
 ## License
